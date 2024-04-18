@@ -5,7 +5,6 @@ import asyncio
 import yt_dlp
 import os
 voice_clients = {}
-ffmpeg = os.getenv('C:/ffmpeg')
 queues = {}
 yt_dl_options = {"format": "bestaudio/best"}
 ytdl = yt_dlp.YoutubeDL(yt_dl_options)
